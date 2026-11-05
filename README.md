@@ -11,3 +11,16 @@ Atomic coordinates (VASP POSCAR format; lattice in Å, fractional coordinates) o
 | `NZOSCB.vasp` | Na20Zr13O5S5Cl26Br26 | 95 |
 
 All models use a cubic cell with a = 13.757 Å.
+
+## AIMD initial and final configurations
+
+Initial and final configurations of the 300 K NVT AIMD simulation of each model (VASP POSCAR format; lattice in Å, fractional coordinates, positions only).
+
+| Model | Initial configuration | Final configuration |
+|---|---|---|
+| NZOC | `NZOC/AIMD_300K_initial.vasp` | `NZOC/AIMD_300K_final.vasp` |
+| NZSC | `NZSC/AIMD_300K_initial.vasp` | `NZSC/AIMD_300K_final.vasp` |
+| NZOSC | `NZOSC/AIMD_300K_initial.vasp` | `NZOSC/AIMD_300K_final.vasp` |
+| NZOSCB | `NZOSCB/AIMD_300K_initial.vasp` | `NZOSCB/AIMD_300K_final.vasp` |
+
+Each final configuration is identical to the corresponding model file listed above.
